@@ -21,6 +21,7 @@
 		5B5DB522191428650064C27F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5DB504191428640064C27F /* UIKit.framework */; };
 		5B5DB52A191428650064C27F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DB528191428650064C27F /* InfoPlist.strings */; };
 		5B5DB52C191428650064C27F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DB52B191428650064C27F /* Git_TestTests.m */; };
+		5B5DB53A191430AB0064C27F /* MSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DB539191430AB0064C27F /* MSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B5DB527191428650064C27F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		5B5DB529191428650064C27F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5DB52B191428650064C27F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5B5DB538191430AB0064C27F /* MSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTest.h; sourceTree = "<group>"; };
+		5B5DB539191430AB0064C27F /* MSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		5B5DB4F4191428640064C27F = {
 			isa = PBXGroup;
 			children = (
+				5B5DB538191430AB0064C27F /* MSTest.h */,
+				5B5DB539191430AB0064C27F /* MSTest.m */,
 				5B5DB506191428640064C27F /* Git Test */,
 				5B5DB525191428650064C27F /* Git TestTests */,
 				5B5DB4FF191428640064C27F /* Frameworks */,
@@ -253,6 +258,7 @@
 				5B5DB511191428640064C27F /* MSAppDelegate.m in Sources */,
 				5B5DB517191428640064C27F /* MSViewController.m in Sources */,
 				5B5DB50D191428640064C27F /* main.m in Sources */,
+				5B5DB53A191430AB0064C27F /* MSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
